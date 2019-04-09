@@ -1,0 +1,26 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Vec2.cpp
+  Sprite.cpp
+  ScoreSprite.cpp
+  ResizeEngine.cpp
+  Main.cpp
+  ImageFile.cpp
+  CTimer.cpp
+  CPlayer.cpp
+  CGameApp.cpp
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(92): warning C4244: 'initializing': conversion from 'LONG' to 'USHORT', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(93): warning C4244: 'initializing': conversion from 'LONG' to 'USHORT', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(652): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(713): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(714): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(715): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(716): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(719): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(720): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(721): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(722): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+c:\users\ezio\desktop\gameframework 2.0\space-invaders\source\cgameapp.cpp(853): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  BackBuffer.cpp
+  Generating Code...
+BackBuffer.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Game.vcxproj -> C:\Users\Ezio\Desktop\GameFramework 2.0\Space-Invaders\d_Game.exe
