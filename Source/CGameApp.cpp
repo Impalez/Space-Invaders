@@ -351,8 +351,8 @@ bool CGameApp::BuildObjects()
 //-----------------------------------------------------------------------------
 void CGameApp::SetupGameState()
 {
-	m_pPlayer->Position() = Vec2(700, 700);
-	m_pPlayer2->Position() = Vec2(750, 100);
+	m_pPlayer->Position() = Vec2(750, 700);
+	m_pPlayer2->Position() = Vec2(750, 20);
 
 	m_pPlayer->frameCounter() = 200;
 	m_pPlayer2->frameCounter() = 200;
@@ -957,7 +957,7 @@ void CGameApp::DrawBackground()
 	if (currentTime - lastTime > 100)
 	{
 		lastTime = currentTime;
-		currentY -= 10;
+		currentY -= 20;
 		if (currentY < 0)
 			currentY = m_imgBackground.Height();
 	}

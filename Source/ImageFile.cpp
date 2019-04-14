@@ -122,6 +122,8 @@ void CImageFile::Paint(HDC hdc, int x, int y)
 	BitBlt(hdc, x, 0, width, height - y, mdc, x, y, SRCCOPY);
 	BitBlt(hdc, x, height - y, width, y, mdc, x, 0, SRCCOPY);
 
+	//BitBlt(hdc, x, 0, width, height, mdc, x, y, SRCCOPY);
+	//BitBlt(hdc, x, height - y, width, y, mdc, x, 0, SRCCOPY);
 	DeleteDC(mdc);
 }
 
